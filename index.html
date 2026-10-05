@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucian World ✨</title>
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#fffaf5,#211d20);--surface:light-dark(#fff,#2b2629);--surface2:light-dark(#f7efe8,#342d31);--text:light-dark(#4d4145,#f8eeee);--muted:light-dark(#8d7b80,#c9b8bd);--pink:light-dark(#e99aae,#ef9db4);--green:light-dark(#9bc9a8,#91cda2);--cream:#fff4df;--line:light-dark(#eadcdf,#493d42);}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}#app{min-height:100vh;background-color:var(--bg)}
+nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.navin{max-width:1080px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;font-size:20px}.brand span{color:var(--pink)}.links{display:flex;gap:8px}.links a{color:var(--text);text-decoration:none;padding:8px 12px;border-radius:999px;font-size:14px}.links a:hover{background:var(--surface2)}
+.hero{max-width:1080px;margin:auto;padding:72px 22px 54px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}.eyebrow{display:inline-block;background:var(--cream);color:#9b6876;border-radius:999px;padding:7px 13px;font-size:13px;font-weight:700}.hero h1{font-size:clamp(42px,7vw,76px);line-height:.98;margin:18px 0 18px;letter-spacing:-3px}.hero h1 span{color:var(--pink)}.hero p{font-size:18px;line-height:1.8;color:var(--muted);max-width:620px}.cta{display:inline-flex;margin-top:15px;padding:13px 19px;background:var(--text);color:var(--bg);border-radius:999px;text-decoration:none;font-weight:750}.orb{min-height:330px;border-radius:38px;background:radial-gradient(circle at 28% 24%,#fff 0 5%,transparent 6%),linear-gradient(145deg,#f8d6df,#d9efdb 55%,#fff0cf);position:relative;overflow:hidden;box-shadow:0 24px 60px #c9aeb655}.orb:before{content:'✦';position:absolute;font-size:100px;color:#fff8;right:12%;top:10%}.orb:after{content:'🧸';position:absolute;font-size:130px;left:50%;top:50%;transform:translate(-50%,-42%);filter:drop-shadow(0 12px 12px #9b747455)}
+section{max-width:1080px;margin:auto;padding:60px 22px}.sectionhead{display:flex;justify-content:space-between;align-items:end;margin-bottom:24px}.sectionhead h2{margin:0;font-size:30px}.sectionhead p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:22px;min-height:190px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 16px 35px #8f707518}.icon{font-size:35px}.card h3{margin:14px 0 7px}.card p{margin:0;color:var(--muted);line-height:1.7}.pill{display:inline-block;margin-top:15px;padding:6px 10px;border-radius:999px;background:var(--surface2);font-size:12px}
+.about{background:var(--surface2);border-radius:32px;padding:34px;display:grid;grid-template-columns:120px 1fr;gap:25px;align-items:center}.avatar{width:120px;height:120px;border-radius:35px;background:linear-gradient(145deg,#f4b8c6,#bfe1c6);display:grid;place-items:center;font-size:55px}.about p{line-height:1.8;color:var(--muted)}footer{text-align:center;padding:45px 22px;color:var(--muted);border-top:1px solid var(--line)}
+@media(max-width:760px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:45px}.orb{min-height:260px}.grid{grid-template-columns:1fr}.about{grid-template-columns:1fr;text-align:center}.avatar{margin:auto}.sectionhead{display:block}.sectionhead p{margin-top:7px}}
+</style>
+</head>
+<body><div id="app">
+<nav><div class="navin"><div class="brand">Lucian <span>World ✨</span></div><div class="links"><a href="#home">Home</a><a href="#works">Works</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></nav>
+<main>
+<section class="hero" id="home"><div><span class="eyebrow">✿ Personal Creative Portfolio</span><h1>Welcome to<br><span>Lucian World</span> ✨</h1><p>พื้นที่เล็ก ๆ สำหรับเก็บผลงาน ความคิดสร้างสรรค์ และสิ่งที่ฉันชอบ ทั้ง LINE Theme, Sticker, Photography และ Vlog</p><a class="cta" href="#works">ชมผลงานของฉัน →</a></div><div class="orb" aria-label="cute creative illustration"></div></section>
+<section id="works"><div class="sectionhead"><div><h2>My Creative Works 🌷</h2><p>สิ่งที่ฉันสนุกกับการสร้าง</p></div></div><div class="grid">
+<article class="card"><div class="icon">🎨</div><h3>LINE Theme</h3><p>ออกแบบธีม LINE โทนพาสเทล คาแรกเตอร์น่ารัก และ mood ที่เปิดแล้วใจฟู</p><span class="pill">Design Collection</span></article>
+<article class="card"><div class="icon">🧸</div><h3>Sticker</h3><p>สติกเกอร์จิบิ อีโมจิ และคาแรกเตอร์สำหรับใช้ในแชตแบบน่ารัก ๆ</p><span class="pill">Sticker Collection</span></article>
+<article class="card"><div class="icon">📷</div><h3>Photography</h3><p>รวมภาพถ่ายที่ชอบ พร้อมมุมมองเล็ก ๆ และเรื่องราวจากหลังกล้อง</p><span class="pill">Photo Gallery</span></article>
+<article class="card"><div class="icon">🎬</div><h3>Vlog</h3><p>บันทึกการเดินทาง คาเฟ่ วันธรรมดา และช่วงเวลาที่อยากเก็บไว้ดูอีกครั้ง</p><span class="pill">Video Diary</span></article>
+<article class="card"><div class="icon">💻</div><h3>Digital Projects</h3><p>งานเว็บ งานกราฟิก และโปรเจกต์เล็ก ๆ ที่ค่อย ๆ สร้างจากไอเดีย</p><span class="pill">Projects</span></article>
+<article class="card"><div class="icon">🌙</div><h3>My Little World</h3><p>พื้นที่รวมสิ่งที่ชอบ แรงบันดาลใจ และเรื่องราวเล็ก ๆ ในแบบของฉัน</p><span class="pill">Personal</span></article>
+</div></section>
+<section id="about"><div class="about"><div class="avatar">🌷</div><div><h2>Hi, I'm Lucian ✨</h2><p>ยินดีต้อนรับเข้าสู่ Lucian World — เว็บไซต์เล็ก ๆ ที่ตั้งใจทำให้เป็นเหมือนห้องส่วนตัวสำหรับเก็บผลงานและไอเดียต่าง ๆ ของฉัน ชอบงานน่ารัก ๆ โทนอุ่น ๆ และการได้เปลี่ยนไอเดียเล็ก ๆ ให้กลายเป็นผลงานจริง</p></div></div></section>
+<section id="contact"><div class="sectionhead"><div><h2>Let's Connect 💌</h2><p>ช่องทางติดต่อและโซเชียลของฉัน</p></div></div><div class="grid"><article class="card"><div class="icon">📩</div><h3>Email</h3><p>your-email@example.com</p></article><article class="card"><div class="icon">📱</div><h3>Social</h3><p>Instagram · TikTok · Facebook</p></article><article class="card"><div class="icon">✨</div><h3>More</h3><p>ไว้เจอกันในผลงานชิ้นต่อไปนะ ♡</p></article></div></section>
+</main><footer>Made with ♡ by Lucian World · 2026 ✨</footer>
+</div></body></html>
